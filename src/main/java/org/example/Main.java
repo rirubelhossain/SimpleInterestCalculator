@@ -5,6 +5,14 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Programmer");
+        String len = "Hello Man";
+        int len_ = len.length() ;
+
+        System.out.println(len_);
+        String subString_ = len.substring(6, len_) ;
+        System.out.println(subString_);
+
+
 
     }
 }
