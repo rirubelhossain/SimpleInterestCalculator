@@ -12,6 +12,23 @@ public class Main {
         String subString_ = len.substring(6, len_) ;
         System.out.println(subString_);
 
+        int age = 8 ;
+
+        if(age < 10 )
+        {
+            System.out.println("Child");
+            System.out.printf("Age is : %d\n", age);
+        }else
+        {
+            System.out.println("Not Child");
+        }
+
+        int i = 0 ;
+        while(i++ < 5 )
+        {
+            System.out.printf("%d ", i++);
+        }
+
 
 
     }
